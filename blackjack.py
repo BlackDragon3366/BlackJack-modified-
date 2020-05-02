@@ -133,6 +133,7 @@ def game():
                         break
                 elif dealer_hand_sum > 21:
                         print("You win!")
+                        money += get_bet.money
                         break
 
                 while decision != "win" or decision != "lose" or decision != "tie":
